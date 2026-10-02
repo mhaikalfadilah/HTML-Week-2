@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>NUMBERING</h2>
+    <ol type="1">
+        <li>Item Pertama</li>
+        <li>Item Kedua</li>
+        <li>Item Ketiga</li>
+        <ol type="A">
+            <li>Sub Item Pertama</li>
+            <li>Sub Item Kedua</li>
+            <li>Sub Item Ketiga</li>
+            <ol type="I">
+                <li>Sub Sub Item Pertama</li>
+                <li>Sub Sub Item Kedua</li>
+                <li>Sub Sub Item Ketiga</li>
+            </ol>
+        </ol>
+    </ol>
+    <h2>BULLET</h2>
+    <ul type="square">
+        <li>Sub Sub Sub Item Pertama</li>
+        <li>Sub Sub Sub Item Kedua</li>
+        <li>Sub Sub Sub Item Ketiga</li>
+        <ul type="circle">
+            <li>Sub Sub Sub Sub Item Pertama</li>
+            <li>Sub Sub Sub Sub Item Kedua</li>
+            <li>Sub Sub Sub Sub Item Ketiga</li>
+            <ul type="disc">
+                <li>Sub Sub Sub Sub Sub Item Pertama</li>
+                <li>Sub Sub Sub Sub Sub Item Kedua</li>
+                <li>Sub Sub Sub Sub Sub Item Ketiga</li>
+                </ul>
+</body>
+</html>
